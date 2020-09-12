@@ -66,6 +66,15 @@ Description
         }
     \endverbatim
 
+**NB*******************************************************************************************************************************************
+This correction improves SA behavior for low Reynolds numbers, based on boundary-layer thickness. The reference is:
+
+    Spalart, P. R. and Garbaruk, A. V., "Correction to the Spalart-Allmaras Turbulence Model, Providing More Accurate Skin Friction," AIAA Journal,
+    Vol. 58, No. 5, May 2020, pp. 1903-1905. 
+    
+    Edited by : M Sereez, De montfort university, Leicester, UK.
+    
+    
 SourceFiles
     SpalartAllmarasLowRe.C
 
