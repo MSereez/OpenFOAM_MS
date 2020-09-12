@@ -1,0 +1,40 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+location	"constant";
+    object      dynamicMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dynamicFvMesh dynamicMotionSolverFvMesh;
+
+motionSolverLibs ("libMydynamicMesh.so");
+
+solver solidBody;
+
+// sample file in case of : conical motion applied to entire grid to maintain attitude vectors
+
+solidBodyCoeffs 
+
+
+{
+	solidBodyMotionFunction conicalMotion;
+	
+	origin (33.7 4.52 0 );  // center of rotation
+	rotationAxis (-0.97030	-0.24192 0); // velcoity vector
+	rotationOmega 0.23348;  // in rad/s
+
+
+}
+
+
+// ************************************************************************* //
