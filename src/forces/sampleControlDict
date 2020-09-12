@@ -16,18 +16,18 @@ forcess
          	WING
 		FUSELAGE
 	);
-	CofR	(33.7 4.52 0);
-	liftDir (0 1 0);
-	dragDir (1 0 0);
-	pitchAxis (0 0 -1);
-	rollAxis (1 0 0);
-	yawAxis (0 1 0)
+	CofR		    (33.7 4.52 0);
+	liftDir   	    (0 1 0);
+	dragDir 	    (1 0 0);
+	pitchAxis	    (0 0 -1);
+	rollAxis 	    (1 0 0);
+	yawAxis 	    (0 1 0)
 	BodyAxisOrigin 	    (33.7 4.52 0);
-  beginBodyAxisX      (-1 0 0);
-  beginBodyAxisY      (0 1 0);
+	beginBodyAxisX      (-1 0 0);
+	beginBodyAxisY      (0 1 0);
 	beginBodyAxisZ      (0 0 -1);
 	rotationAxis        (-0.97030 -0.24192 0);
-  rotationOmega       0.23348;
+  	rotationOmega       0.23348;
 	log true;
 	pName p; 
 	UName U;
@@ -57,17 +57,17 @@ forcess
  // uniform (2.1173 0 0.3733);
 //  X is forward, Z is up, Y is side
 	BodyAxisOrigin 	    (33.7 4.52 0);
-  beginBodyAxisX      (-1 0 0);
-  beginBodyAxisY      (0 1 0);
+ 	beginBodyAxisX      (-1 0 0);
+	beginBodyAxisY      (0 1 0);
 	beginBodyAxisZ      (0 0 -1);
 	rotationAxis        (-0.97030 -0.24192 0);
-  rotationOmega       0.23348;
-	CofR	(33.7 4.52 0);
-	liftDir (0 1 0);
-	dragDir (1 0 0);
-	pitchAxis (0 0 -1);
-	rollAxis (1 0 0);
-	yawAxis (0 1 0);
+	rotationOmega       0.23348;
+	CofR		   (33.7 4.52 0);
+	liftDir 	   (0 1 0);
+	dragDir 	   (1 0 0);
+	pitchAxis	   (0 0 -1);
+	rollAxis	   (1 0 0);
+	yawAxis 	   (0 1 0);
 	magUInf 68.6;
 	lRef 7;
 	lRefRollYaw 29.38;
