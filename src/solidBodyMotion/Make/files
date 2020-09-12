@@ -1,0 +1,7 @@
+
+solidBodyMotionFunctions = solidBodyMotion/solidBodyMotionFunctions
+$(solidBodyMotionFunctions)/solidBodyMotionFunction/solidBodyMotionFunction.C
+$(solidBodyMotionFunctions)/conicalMotion/conicalMotion.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libMydynamicMesh
